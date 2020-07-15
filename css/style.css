@@ -1,0 +1,50 @@
+.mynav{
+    /* position: fixed; */
+    width: 100%;  
+    height: 100px;
+    line-height: 50px;
+
+}
+
+.navbar{
+    background-color:peru !important;
+    padding-top: 0 ;
+    padding-bottom: 0;
+   padding-left: 40px;
+
+}
+
+.navbar .navbar-brand{
+    background-color: rgb(240, 222, 164);
+    padding: 20px;
+    color: white ;
+    font-weight: bold ;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 1.3em;
+
+
+}
+
+.navbar .navbar-nav{
+    margin: 0 auto; 
+}
+
+body{
+    background-color: khaki;
+    
+}
+
+#content{
+    padding-top: 20px;
+    padding-left: 10px; 
+    margin-left: 40px; 
+    margin-top: 20px; 
+    height: 400px; 
+    width: 400px; 
+    background-color:white;
+}
+
+.contentimage{
+    max-width: 50px;
+    max-height: 50px;
+}
