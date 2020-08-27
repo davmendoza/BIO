@@ -31,24 +31,8 @@
 
 
 
-#content{
-    font-family: 'Times New Roman', Times, serif ;
-    padding-top: 20px;
-    padding-left: 30px;  
-    margin-left: 40px; 
-    margin-top: 20px; 
-    height: 400px; 
-    width: 400px; 
-    background-color:white;
-}
 
-.contentimage{
-    padding-top: 5px;
-    max-width: 150px;
-    max-height: 150px;
-    float: left;
-    padding-right: 10px;
-}
+
 
 body {
     
@@ -87,10 +71,7 @@ body {
     margin: auto;
   }
   
-  h1 {
-    font-size: 50px;
-    word-break: break-all;
-  }
+
   
   .row {
     margin: 8px -16px;
@@ -117,7 +98,7 @@ body {
   
   /* Content */
   .content {
-    background-color: white;
+    
     padding: 10px;
   }
   
@@ -147,4 +128,21 @@ body {
     padding-top: 70px;
     padding-bottom: 70px;
   }
+
+  .w3-center {
+    text-align: center!important;
+}
+
+.w3-padding-64 {
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 50px;
+    word-break: break-all;
+}
   
