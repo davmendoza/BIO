@@ -139,10 +139,15 @@ body {
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif ;
+    font-family: 'Times New Roman', Times, serif !important ;
     font-weight: 400;
     margin: 10px 0;
     font-size: 50px;
     word-break: break-all;
+}
+p {
+  font-family: 'Times New Roman', Times, serif !important ;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
   
